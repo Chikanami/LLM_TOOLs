@@ -9,7 +9,7 @@
 ; 4. merge_same_base: 是否合并相同数据集（true/false）
 ; 5. file_pattern: 文件匹配模式（支持*通配符）
 
-[有效商户数据]
+[节名]
 ; 保留以下列（确保列名完全匹配）
 keep_columns =
 
