@@ -127,10 +127,10 @@ w_r = (nᵢ · nₛ)^0.7    红色权重（远两者）
 |------|------|
 | **缩放** | 鼠标滚轮 |
 | **拖拽** | 鼠标拖动画布 / 节点 |
-| **定位初始** | 按钮 «📍 初始节点» 或键盘 `I` |
-| **定位解** | 按钮 «🎯 解节点» 或键盘 `S` |
-| **层级布局** | 按钮 «🏗️ 层级布局» 或键盘 `L` |
-| **暂停物理** | 按钮 «⏸️ 暂停物理» 或键盘 `P` |
+| **定位初始** | 按钮 «初始节点»  |
+| **定位解** | 按钮 «解节点»  |
+| **层级布局** | 按钮 «层级布局»  |
+| **暂停物理** | 按钮 «暂停物理»  |
 | **悬停信息** | 鼠标悬停节点/边显示 tooltip |
 
 ### 侧边栏信息
@@ -420,17 +420,6 @@ canonicalize(state)          → state         # 对称性压缩
 ## 许可证
 
 MIT License
-
----
-
-## 参考文献
-
-1. Russell, S. & Norvig, P. *Artificial Intelligence: A Modern Approach*. 4th ed. Pearson, 2021. Chapter 3: Solving Problems by Searching.
-2. Tarjan, R. "Depth-First Search and Linear Graph Algorithms." *SIAM Journal on Computing*, 1(2), 1972.
-3. Korf, R. E. "Depth-First Iterative-Deepening: An Optimal Admissible Tree Search." *Artificial Intelligence*, 27(1), 1985.
-4. 蔡自兴, 徐光祐. *人工智能及其应用*. 第 5 版. 清华大学出版社, 2016.
-
----
 
 *"There is a deep unity between the puzzles we play and the systems we design."*
 ```
