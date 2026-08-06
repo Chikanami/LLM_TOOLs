@@ -84,7 +84,7 @@ def clean_formula(formula):
     if not isinstance(formula, str):
         return formula
     # 确保公式以等号开头（但保留等号）
-    cleaned = re.sub(r'_xlfn\.|_xlpm\.', '', formula)
+    cleaned = re.sub(r'_xlfn\.|_xlpm\.|_xlws.', '', formula)
     return cleaned
 
 # -------------------- 处理器类 --------------------
